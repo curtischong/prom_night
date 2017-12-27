@@ -1,0 +1,25 @@
+.header{
+    text-align: center;
+    background-color: #99004f;
+    height: 10em;
+    top: -30px;
+    margin-top: 0px;
+}
+.header h1{
+    font-size:5em;
+    font-weight:300;
+    color:white;
+    margin-top:0;
+    padding-top:0.1em;
+    margin-bottom: 0px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+.header p{
+    font-size:1.1em;
+    font-weight:400;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-top: .05em;
+}
