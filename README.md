@@ -1,4 +1,4 @@
-There's this age old computer science problem... well problem for computer scientists anyway.
+There's this age-old computer science problem... well problem for computer scientists anyway.
 
 As world-class loners, prom dates are hard to come by. This means we're usually the ones who have last pick.
 
