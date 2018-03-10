@@ -1,0 +1,42 @@
+.nameItem{
+  width: 200px;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+.nameItem:hover .nameItemX{
+  opacity:1.0;
+    filter:alpha(opacity=100);/*position where
+    enlarged image should offset horizontally */
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.nameItemT{
+  position: relative;
+  float: left;
+  top: 0px;
+}
+.nameItemX{
+  position: relative;
+  right: 30px;
+  float: right;
+  color: red;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.splitHr{
+  border: 0;
+  height: 1px;
+  width: 200px;
+  background-image: linear-gradient(to right, #ffdbed,rgba(0, 0, 0, 0.75),#ffdbed);
+  position: relative;
+  margin: 0 auto;
+}
+
+.theList{
+  display: inline-block;
+  float: left;
+}

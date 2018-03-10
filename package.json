@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "firebase": "^4.8.1",
+    "addons": "^0.1.2",
+    "firebase": "^4.10.1",
     "flexbox-react": "^4.4.0",
     "react": "^16.2.0",
+    "react-addons": "^0.9.1-deprecated",
+    "react-addons-test-utils": "^15.6.2",
+    "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
     "react-icons": "^2.2.7",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "react-select": "^1.2.1"
   },
   "scripts": {
     "start": "react-scripts start",

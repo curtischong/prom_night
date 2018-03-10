@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import * as firebase from "firebase";
-import "./Components.css";
+import "./../Components.css";
 import "./Login.css";
-import Google from "react-icons/lib/fa/google";
+import Facebook from "react-icons/lib/fa/facebook";
 
 export default class Login extends Component {
 
 	handleClick() {
-		var provider = new firebase.auth.GoogleAuthProvider();
+		var provider = new firebase.auth.FacebookAuthProvider();
 		firebase.auth().signInWithPopup(provider)
 			.then()
 			.catch(function(error) {
@@ -19,7 +19,7 @@ export default class Login extends Component {
 	render () {
 		return (
 			<div className="container login">
-				<button type="submit" onClick={() => this.handleClick()} className="button"><Google /><span> LOGIN WITH GOOGLE</span></button>
+				<button type="submit" onClick={() => this.handleClick()} className="button fbButton"><Facebook /><span> LOGIN WITH FACEBOOK</span></button>
 			</div>
 		)
 	}

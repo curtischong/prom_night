@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import "./Components.css";
 import "./Header.css";
-import Google from "react-icons/lib/fa/google";
 
 export default class Header extends Component {
 	render () {
