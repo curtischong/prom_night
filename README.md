@@ -8,4 +8,4 @@ So I've put together a little web service for people to list down their prom dat
 Good luck listing :)
 
 
-Renouwn for original problem goes to William Wen (ZQFMGB12): https://dmoj.ca/problem/tle16c8p5
+Renouwn for the original problem goes to William Wen (ZQFMGB12): https://dmoj.ca/problem/tle16c8p5
