@@ -7,5 +7,4 @@ So I've put together a little web service for people to list down their prom dat
 
 Good luck listing :)
 
-
-Renouwn for the original problem goes to William Wen (ZQFMGB12): https://dmoj.ca/problem/tle16c8p5
+Special thanks to ZQFMGB12 (William Wen) for inspiring this site: https://dmoj.ca/problem/tle16c8p5
